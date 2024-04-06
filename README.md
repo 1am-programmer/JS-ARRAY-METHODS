@@ -20,7 +20,7 @@ array.push(4, 5);
 Removes the last element from an array and returns that element.
 
 javascript
-Copy code
+
 const array = [1, 2, 3];
 const lastElement = array.pop();
 // Output: 3
@@ -28,7 +28,7 @@ const lastElement = array.pop();
 Removes the first element from an array and returns that element.
 
 javascript
-Copy code
+
 const array = [1, 2, 3];
 const firstElement = array.shift();
 // Output: 1
@@ -36,7 +36,7 @@ const firstElement = array.shift();
 Adds one or more elements to the beginning of an array and returns the new length of the array.
 
 javascript
-Copy code
+
 const array = [2, 3];
 array.unshift(0, 1);
 // Output: [0, 1, 2, 3]
@@ -44,7 +44,7 @@ array.unshift(0, 1);
 Merges two or more arrays and returns a new array.
 
 javascript
-Copy code
+
 const array1 = [1, 2];
 const array2 = [3, 4];
 const newArray = array1.concat(array2);
